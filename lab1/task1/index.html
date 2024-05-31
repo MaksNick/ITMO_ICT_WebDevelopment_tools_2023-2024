@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.0, mkdocs-terminal-4.4.0">
+     
+     
+    <link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Task description & models - Web Programming Peports Stash</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- default color palette -->
+<link href="../../css/palettes/default.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "../..",
+    shortcuts = "{}";
+</script>
+<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="/" class="no-style">Web Programming Peports Stash</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                
+                
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="1">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+  
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../..">Home</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+        
+        
+
+        
+            
+    
+        
+        <span class="
+        
+    
+
+    terminal-mkdocs-side-nav-item--active terminal-mkdocs-side-nav-section-no-index">Lab 1</span>
+    
+    
+        
+      
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../">Intro</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        <span class="
+
+    terminal-mkdocs-side-nav-item--active">Task description & models</span>
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../task2/">Base endpoints</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../task3/">Authentication</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../task4/">Alembic & Connection</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+        
+        
+
+        
+            
+    
+        
+        
+            
+            
+            <span class="
+        
+    
+
+    terminal-mkdocs-side-nav-item terminal-mkdocs-side-nav-section-no-index">Lab 2</span>
+        
+    
+    
+        
+      
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../../lab2/">Intro</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../../lab2/task1/">Task 1</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../../lab2/task2/">Task 2</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+  </li>
+        
+    </ul>
+  
+</nav><hr>
+<nav>
+    <ul>
+        <li><a href="#_1">Задание и модели</a></li>
+        <li><a href="#_2">Текст задания</a></li><li><a href="#_3">Модели и база данных</a></li><li><a href="#_4">Базовые модели</a></li><li><a href="#_5">Остальные модели</a></li>
+    </ul>
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="_1">Задание и модели</h1>
+<h3 id="_2">Текст задания</h3>
+<p>Тема: <strong>Разработка веб-приложения для буккросинга</strong></p>
+<p>Задача - создать веб-приложение, которое позволит пользователям обмениваться книгами между собой. Это приложение должно облегчать процесс обмена книгами, позволяя пользователям находить книги, которые им интересны, и находить новых пользователей для обмена книгами. Функционал веб-приложения должен включать следующее:</p>
+<ol>
+<li>
+<p><strong>Создание профилей:</strong> Возможность пользователям создавать профили, указывать информацию о себе, своих навыках, опыте работы и предпочтениях по проектам.</p>
+</li>
+<li>
+<p><strong>Добавление книг в библиотеку:</strong> Пользователи могут добавлять книги, которыми они готовы поделиться, в свою виртуальную библиотеку на платформе.</p>
+</li>
+<li>
+<p><strong>Поиск и запросы на обмен:</strong> Функционал поиска книг в библиотеке других пользователей. Возможность отправлять запросы на обмен книгами другим пользователям.</p>
+</li>
+<li>
+<p><strong>Управление запросами и обменами:</strong> Возможность просмотра и управления запросами на обмен. Возможность подтверждения или отклонения запросов на обмен.</p>
+</li>
+</ol>
+<h3 id="_3">Модели и база данных</h3>
+<p>Были созданы следующие модели:</p>
+<ul>
+<li>Модель читателя, которая содержит базовую информацию о нем. В ее основе лежит модель пользователя, которая хранит в себе данные для авторизации (почта, юзернейм и захешированный пароль);</li>
+<li>Модель книги с информацией о ней (автор, год издания, описание);</li>
+<li>Модель жанра, которая хранит в себе его название;</li>
+<li>Модель опыта работы, которая хранит подробную информацию о всех местах работы читателя;</li>
+<li>Модель заявки на обмен книги. Она хранит в себе информацию об отправителе и получателе запроса, а также ее статус и время создания/обновления;</li>
+<li>Две дополнительные модели связывают книгу и читателя, книгу и жанр.</li>
+</ul>
+<p><img alt="Database ERD" src="../pics/1.jpg" title="Database ERD" /></p>
+<h3 id="_4">Базовые модели</h3>
+<p>Включают в себя модели юзера с функциями хеширования и верификации пароля, базовые модели книги и рабочего опыта, а также две Enum-модели: гендер и статус запроса.</p>
+<div class="highlight"><span class="filename">base_models.py</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">):</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">username</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">email</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">password_hash</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="k">def</span> <span class="nf">hash_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">password</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">password_hash</span> <span class="o">=</span> <span class="n">pwd_context</span><span class="o">.</span><span class="n">hash</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="k">def</span> <span class="nf">verify_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">password</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>        <span class="k">return</span> <span class="n">pwd_context</span><span class="o">.</span><span class="n">verify</span><span class="p">(</span><span class="n">password</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">password_hash</span><span class="p">)</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">class</span> <span class="nc">BookBase</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">):</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    <span class="n">author</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    <span class="n">publication_year</span><span class="p">:</span> <span class="nb">int</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>    <span class="n">description</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="k">class</span> <span class="nc">Gender</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>    <span class="n">male</span> <span class="o">=</span> <span class="s2">&quot;male&quot;</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    <span class="n">female</span> <span class="o">=</span> <span class="s2">&quot;female&quot;</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    <span class="n">other</span> <span class="o">=</span> <span class="s2">&quot;other&quot;</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="k">class</span> <span class="nc">RequestStatus</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>    <span class="n">pending</span> <span class="o">=</span> <span class="s2">&quot;pending&quot;</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>    <span class="n">rejected</span> <span class="o">=</span> <span class="s2">&quot;rejected&quot;</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>    <span class="n">approved</span> <span class="o">=</span> <span class="s2">&quot;approved&quot;</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="k">class</span> <span class="nc">WorkExperienceBase</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">):</span>
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>    <span class="n">organization</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>    <span class="n">position</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>    <span class="n">start_date</span><span class="p">:</span> <span class="n">datetime</span>
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>    <span class="n">end_date</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">datetime</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+</code></pre></div>
+<h3 id="_5">Остальные модели</h3>
+<p>Здесь обозначены все те модели, которые были упомянуты в самом начале + несколько моделей в конце для корректного отображения вложенных моделей.</p>
+<div class="highlight"><span class="filename">models.py</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">class</span> <span class="nc">BookOwnership</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="n">book_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>        <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;book.id&quot;</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    <span class="p">)</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    <span class="n">owner_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>        <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;reader.id&quot;</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    <span class="p">)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    <span class="n">book</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Book&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;ownerships&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    <span class="n">owner</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Reader&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;ownerships&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="k">class</span> <span class="nc">BookGenreLink</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>    <span class="n">book_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>        <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;book.id&quot;</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>    <span class="p">)</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>    <span class="n">genre_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>        <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;genre.id&quot;</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>    <span class="p">)</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>    <span class="n">book</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Book&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;genre_links&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>    <span class="n">genre</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Genre&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;book_links&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>        <span class="n">from_attributes</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="k">class</span> <span class="nc">Genre</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>    <span class="nb">id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>    <span class="n">books</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="s2">&quot;Book&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a>        <span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;genres&quot;</span><span class="p">,</span> <span class="n">link_model</span><span class="o">=</span><span class="n">BookGenreLink</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a>    <span class="p">)</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>    <span class="n">book_links</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="s2">&quot;BookGenreLink&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;genre&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a>        <span class="n">from_attributes</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="k">class</span> <span class="nc">Book</span><span class="p">(</span><span class="n">BookBase</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a>    <span class="nb">id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a>    <span class="n">available</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a>    <span class="n">readers</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="s2">&quot;Reader&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span>
+<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a>        <span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;books&quot;</span><span class="p">,</span> <span class="n">link_model</span><span class="o">=</span><span class="n">BookOwnership</span>
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a>    <span class="p">)</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a>    <span class="n">ownerships</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">BookOwnership</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;book&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a>    <span class="n">genres</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Genre</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;books&quot;</span><span class="p">,</span> <span class="n">link_model</span><span class="o">=</span><span class="n">BookGenreLink</span><span class="p">)</span>
+<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>    <span class="n">genre_links</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">BookGenreLink</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;book&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a>
+<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a>
+<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a>
+<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="k">class</span> <span class="nc">WorkExperience</span><span class="p">(</span><span class="n">WorkExperienceBase</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a>    <span class="nb">id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a>    <span class="n">reader_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;reader.id&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a>    <span class="n">reader</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;Reader&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;work_experience&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a>
+<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a>
+<a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a>
+<a id="__codelineno-1-64" name="__codelineno-1-64" href="#__codelineno-1-64"></a><span class="k">class</span> <span class="nc">Reader</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-65" name="__codelineno-1-65" href="#__codelineno-1-65"></a>    <span class="nb">id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-66" name="__codelineno-1-66" href="#__codelineno-1-66"></a>    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-67" name="__codelineno-1-67" href="#__codelineno-1-67"></a>    <span class="n">surname</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-68" name="__codelineno-1-68" href="#__codelineno-1-68"></a>    <span class="n">age</span><span class="p">:</span> <span class="nb">int</span>
+<a id="__codelineno-1-69" name="__codelineno-1-69" href="#__codelineno-1-69"></a>    <span class="n">gender</span><span class="p">:</span> <span class="n">Gender</span>
+<a id="__codelineno-1-70" name="__codelineno-1-70" href="#__codelineno-1-70"></a>    <span class="n">profile_description</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-1-71" name="__codelineno-1-71" href="#__codelineno-1-71"></a>    <span class="n">work_experience</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">WorkExperience</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;reader&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-72" name="__codelineno-1-72" href="#__codelineno-1-72"></a>    <span class="n">books</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Book</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;readers&quot;</span><span class="p">,</span> <span class="n">link_model</span><span class="o">=</span><span class="n">BookOwnership</span><span class="p">)</span>
+<a id="__codelineno-1-73" name="__codelineno-1-73" href="#__codelineno-1-73"></a>    <span class="n">ownerships</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">BookOwnership</span><span class="p">]</span> <span class="o">=</span> <span class="n">Relationship</span><span class="p">(</span><span class="n">back_populates</span><span class="o">=</span><span class="s2">&quot;owner&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-74" name="__codelineno-1-74" href="#__codelineno-1-74"></a>
+<a id="__codelineno-1-75" name="__codelineno-1-75" href="#__codelineno-1-75"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-76" name="__codelineno-1-76" href="#__codelineno-1-76"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-77" name="__codelineno-1-77" href="#__codelineno-1-77"></a>
+<a id="__codelineno-1-78" name="__codelineno-1-78" href="#__codelineno-1-78"></a>
+<a id="__codelineno-1-79" name="__codelineno-1-79" href="#__codelineno-1-79"></a><span class="k">class</span> <span class="nc">UserRequest</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">,</span> <span class="n">table</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<a id="__codelineno-1-80" name="__codelineno-1-80" href="#__codelineno-1-80"></a>    <span class="nb">id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-1-81" name="__codelineno-1-81" href="#__codelineno-1-81"></a>    <span class="n">book_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;book.id&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-82" name="__codelineno-1-82" href="#__codelineno-1-82"></a>    <span class="n">sender_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;reader.id&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-83" name="__codelineno-1-83" href="#__codelineno-1-83"></a>    <span class="n">receiver_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">foreign_key</span><span class="o">=</span><span class="s2">&quot;reader.id&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-84" name="__codelineno-1-84" href="#__codelineno-1-84"></a>    <span class="n">status</span><span class="p">:</span> <span class="n">RequestStatus</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="n">RequestStatus</span><span class="o">.</span><span class="n">pending</span><span class="p">)</span>
+<a id="__codelineno-1-85" name="__codelineno-1-85" href="#__codelineno-1-85"></a>    <span class="n">created_at</span><span class="p">:</span> <span class="n">datetime</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">)</span>
+<a id="__codelineno-1-86" name="__codelineno-1-86" href="#__codelineno-1-86"></a>    <span class="n">updated_at</span><span class="p">:</span> <span class="n">datetime</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">)</span>
+<a id="__codelineno-1-87" name="__codelineno-1-87" href="#__codelineno-1-87"></a>
+<a id="__codelineno-1-88" name="__codelineno-1-88" href="#__codelineno-1-88"></a>    <span class="k">def</span> <span class="nf">approve</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a id="__codelineno-1-89" name="__codelineno-1-89" href="#__codelineno-1-89"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">status</span> <span class="o">=</span> <span class="n">RequestStatus</span><span class="o">.</span><span class="n">approved</span>
+<a id="__codelineno-1-90" name="__codelineno-1-90" href="#__codelineno-1-90"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span>
+<a id="__codelineno-1-91" name="__codelineno-1-91" href="#__codelineno-1-91"></a>
+<a id="__codelineno-1-92" name="__codelineno-1-92" href="#__codelineno-1-92"></a>    <span class="k">def</span> <span class="nf">reject</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<a id="__codelineno-1-93" name="__codelineno-1-93" href="#__codelineno-1-93"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">status</span> <span class="o">=</span> <span class="n">RequestStatus</span><span class="o">.</span><span class="n">rejected</span>
+<a id="__codelineno-1-94" name="__codelineno-1-94" href="#__codelineno-1-94"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span>
+<a id="__codelineno-1-95" name="__codelineno-1-95" href="#__codelineno-1-95"></a>
+<a id="__codelineno-1-96" name="__codelineno-1-96" href="#__codelineno-1-96"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-97" name="__codelineno-1-97" href="#__codelineno-1-97"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-98" name="__codelineno-1-98" href="#__codelineno-1-98"></a>
+<a id="__codelineno-1-99" name="__codelineno-1-99" href="#__codelineno-1-99"></a>
+<a id="__codelineno-1-100" name="__codelineno-1-100" href="#__codelineno-1-100"></a><span class="k">class</span> <span class="nc">ReaderResponse</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">):</span>
+<a id="__codelineno-1-101" name="__codelineno-1-101" href="#__codelineno-1-101"></a>    <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span>
+<a id="__codelineno-1-102" name="__codelineno-1-102" href="#__codelineno-1-102"></a>    <span class="n">username</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-103" name="__codelineno-1-103" href="#__codelineno-1-103"></a>    <span class="n">email</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-104" name="__codelineno-1-104" href="#__codelineno-1-104"></a>    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-105" name="__codelineno-1-105" href="#__codelineno-1-105"></a>    <span class="n">surname</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-106" name="__codelineno-1-106" href="#__codelineno-1-106"></a>    <span class="n">age</span><span class="p">:</span> <span class="nb">int</span>
+<a id="__codelineno-1-107" name="__codelineno-1-107" href="#__codelineno-1-107"></a>    <span class="n">gender</span><span class="p">:</span> <span class="n">Gender</span>
+<a id="__codelineno-1-108" name="__codelineno-1-108" href="#__codelineno-1-108"></a>    <span class="n">profile_description</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-1-109" name="__codelineno-1-109" href="#__codelineno-1-109"></a>    <span class="n">books</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">BookBase</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-1-110" name="__codelineno-1-110" href="#__codelineno-1-110"></a>    <span class="n">work_experience</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">WorkExperienceBase</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-1-111" name="__codelineno-1-111" href="#__codelineno-1-111"></a>
+<a id="__codelineno-1-112" name="__codelineno-1-112" href="#__codelineno-1-112"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-113" name="__codelineno-1-113" href="#__codelineno-1-113"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-114" name="__codelineno-1-114" href="#__codelineno-1-114"></a>
+<a id="__codelineno-1-115" name="__codelineno-1-115" href="#__codelineno-1-115"></a>
+<a id="__codelineno-1-116" name="__codelineno-1-116" href="#__codelineno-1-116"></a><span class="k">class</span> <span class="nc">BookOwnershipResponse</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">):</span>
+<a id="__codelineno-1-117" name="__codelineno-1-117" href="#__codelineno-1-117"></a>    <span class="n">book</span><span class="p">:</span> <span class="n">Book</span>
+<a id="__codelineno-1-118" name="__codelineno-1-118" href="#__codelineno-1-118"></a>    <span class="n">owner</span><span class="p">:</span> <span class="n">ReaderResponse</span>
+<a id="__codelineno-1-119" name="__codelineno-1-119" href="#__codelineno-1-119"></a>
+<a id="__codelineno-1-120" name="__codelineno-1-120" href="#__codelineno-1-120"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-121" name="__codelineno-1-121" href="#__codelineno-1-121"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-1-122" name="__codelineno-1-122" href="#__codelineno-1-122"></a>
+<a id="__codelineno-1-123" name="__codelineno-1-123" href="#__codelineno-1-123"></a>
+<a id="__codelineno-1-124" name="__codelineno-1-124" href="#__codelineno-1-124"></a><span class="k">class</span> <span class="nc">BookResponse</span><span class="p">(</span><span class="n">SQLModel</span><span class="p">):</span>
+<a id="__codelineno-1-125" name="__codelineno-1-125" href="#__codelineno-1-125"></a>    <span class="nb">id</span><span class="p">:</span> <span class="nb">int</span>
+<a id="__codelineno-1-126" name="__codelineno-1-126" href="#__codelineno-1-126"></a>    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-127" name="__codelineno-1-127" href="#__codelineno-1-127"></a>    <span class="n">author</span><span class="p">:</span> <span class="nb">str</span>
+<a id="__codelineno-1-128" name="__codelineno-1-128" href="#__codelineno-1-128"></a>    <span class="n">publication_year</span><span class="p">:</span> <span class="nb">int</span>
+<a id="__codelineno-1-129" name="__codelineno-1-129" href="#__codelineno-1-129"></a>    <span class="n">description</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+<a id="__codelineno-1-130" name="__codelineno-1-130" href="#__codelineno-1-130"></a>    <span class="n">available</span><span class="p">:</span> <span class="nb">bool</span>
+<a id="__codelineno-1-131" name="__codelineno-1-131" href="#__codelineno-1-131"></a>    <span class="n">genres</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Genre</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-1-132" name="__codelineno-1-132" href="#__codelineno-1-132"></a>
+<a id="__codelineno-1-133" name="__codelineno-1-133" href="#__codelineno-1-133"></a>    <span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+<a id="__codelineno-1-134" name="__codelineno-1-134" href="#__codelineno-1-134"></a>        <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+</code></pre></div>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
