@@ -1,0 +1,37 @@
+site_name: Web Programming Peports Stash
+theme:
+  name: terminal
+  features:
+   - revision.date
+  plugins:
+   - search
+   - git-revision-date
+  language: en
+        
+repo_url: https://github.com/MaksNick/ITMO_ICT_WebDevelopment_tools_2023-2024
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+
+nav:
+  - Home: index.md
+  - Lab 1:
+      - Intro: lab1/index.md
+      - Task description & models: lab1/task1.md
+      - Base endpoints: lab1/task2.md
+      - Authentication: lab1/task3.md
+      - Alembic & Connection: lab1/task4.md
+  - Lab 2:
+      - Intro: lab2/index.md
+      - Task 1: lab2/task1.md
+      - Task 2: lab2/task2.md

@@ -1,0 +1,2 @@
+# MkDocs Plugins
+mkdocs-git-revision-date-plugin
