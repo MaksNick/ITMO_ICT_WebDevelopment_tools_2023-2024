@@ -1,11 +1,15 @@
 site_name: Web Programming Peports Stash
 theme:
   name: terminal
-  features:
-   - revision.date
   plugins:
    - search
    - git-revision-date
+  features:
+   - footer.prev_next
+   - navigation.side.indexes
+   - revision.date
+   - revision.history
+   - style.links.underline.hide
   language: en
         
 repo_url: https://github.com/MaksNick/ITMO_ICT_WebDevelopment_tools_2023-2024
@@ -13,6 +17,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - footnotes
+  - meta
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
@@ -22,10 +28,14 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
 
 nav:
   - Home: index.md
-  - Lab 1:
+  - Practice: lab1/practice.md
+  - Lab 1: 
       - Intro: lab1/index.md
       - Task description & models: lab1/task1.md
       - Base endpoints: lab1/task2.md
@@ -35,3 +45,8 @@ nav:
       - Intro: lab2/index.md
       - Task 1: lab2/task1.md
       - Task 2: lab2/task2.md
+  - Lab 3:
+      - Intro: lab3/index.md
+      - Dockerfile & Docker-compose: lab3/task1.md
+      - Endpoint: lab3/task2.md
+      - Celery & Redis: lab3/task3.md
